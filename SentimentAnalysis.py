@@ -10,10 +10,6 @@ from tencentcloud.nlp.v20190408 import nlp_client, models
 from tkinter import *
 import tkinter.messagebox
 
-# 调用者设置
-# SecretId = "AKIDoU0OchdOzRggbN7oLl3DE9uTr56vUoun"
-# SecretKey = "jSCuX6au1ulXEl6C7qMoDWr7I2hM2e8c"
-
 # 获取识别结果
 def get_res(text,flag,mode,SecretId,SecretKey):
     try:
